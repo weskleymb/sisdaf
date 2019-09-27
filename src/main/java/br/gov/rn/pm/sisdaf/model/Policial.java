@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Data
 @Entity
 @Table(name = "tb_policiais")
-public class Policial {
+public class Policial extends AuditedEntity {
 
     @Id
     @Column(name = "pol_id")
